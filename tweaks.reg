@@ -129,3 +129,4 @@ Win+R, "cmd"
 "TcpAckFrequency"=dword:00000001
 "TCPNoDelay"=dword:00000001
 "TcpDelAckTicks"=dword:00000000
+
