@@ -112,6 +112,7 @@
 “AppsUseLightTheme”=dword:00000001
 
 ;Disable the LockScreen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows]
 "Personalization"=key
 "NoLockscreen"=dword:00000001
 
