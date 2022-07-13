@@ -130,3 +130,7 @@ Win+R, "cmd"
 "TCPNoDelay"=dword:00000001
 "TcpDelAckTicks"=dword:00000000
 
+;Remove the Windows 10 Action Center Sidebar
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell]
+"UseActionCenterExperience"=dword:00000000
+
