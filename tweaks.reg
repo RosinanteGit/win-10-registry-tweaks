@@ -114,7 +114,7 @@
 ;Enable Dark Mode
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\]
 "Personalize"=key
-“AppsUseLightTheme”=dword:00000001
+“AppsUseLightTheme”=dword:00000000
 
 ;Disable the LockScreen
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows]
