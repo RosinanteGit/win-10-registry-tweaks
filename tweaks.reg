@@ -115,3 +115,11 @@
 "Personalization"=key
 "NoLockscreen"=dword:00000001
 
+;Disabling Nagle’s algorithm
+Win+R, "cmd"
+"ipconfig" (note IPv4 Address)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces]
+;Open each one of those subkeys, and locate the one which includes a registry value named DhcpIPAddress and its data matches your IP address.
+"TcpAckFrequency"=dword:00000001
+"TCPNoDelay"=dword:00000001
+"TcpDelAckTicks"=dword:00000000
